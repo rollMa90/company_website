@@ -92,7 +92,7 @@
             人员招聘，名义雇主服务，员工的管理与薪酬规划
           </div>
         </li>
-        <li class="card-item" @click="goTo('/BusinessRegistration')">
+        <li class="card-item" @click="goTo('/LicenseApplication')">
           <img src="../assets/images/card/card-item5.jpg" alt="" srcset="">
           <div class="card-title">
             产品认证
@@ -119,7 +119,7 @@
             菲律宾各类签证和第三国签证代办
           </div>
         </li>
-        <li class="card-item" @click="goTo('/BusinessRegistration')">
+        <li class="card-item" @click="goTo('/OtherServices')">
           <img src="../assets/images/card/card-item8.jpg" alt="" srcset="">
           <div class="card-title">
             个人业务

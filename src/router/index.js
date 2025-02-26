@@ -72,8 +72,7 @@ const routes = [
       {
         name: "OtherServices",
         path: "OtherServices",
-        component: () =>
-          import("@/views/PersonalBusiness/OtherServices.vue"),
+        component: () => import("@/views/PersonalBusiness/OtherServices.vue"),
       },
       { path: "404", component: NotFound },
       { path: "/:pathMatch(.*)*", redirect: "/404" },
@@ -84,6 +83,9 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes,
+  scrollBehavior() {
+    return { top: 0 };
+  },
 });
 
 export default router;
